@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Encanto | Presentes e Perfumes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&family=Poppins:wght@300;400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #FDF6F0; /* Fundo bege rosado bem suave */
+            color: #333;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #D4A373; /* Dourado/Rosé suave */
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #FAEDCD;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            color: #fff;
+            letter-spacing: 2px;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            /* Fundo com imagem de caixa de presente elegante */
+            background: linear-gradient(rgba(212, 163, 115, 0.8), rgba(212, 163, 115, 0.85)), url('https://images.unsplash.com/photo-1549465220-1a8b9238cd48?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .hero p {
+            font-size: 16px;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+
+        .btn-whatsapp {
+            display: inline-block;
+            background-color: #D4A373;
+            color: white;
+            padding: 16px 40px;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 50px;
+            font-size: 16px;
+            text-transform: uppercase;
+            box-shadow: 0 4px 15px rgba(212, 163, 115, 0.4);
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #bc8a5f;
+            transform: scale(1.05);
+        }
+
+        /* Seção de Produtos */
+        .section-title {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            color: #D4A373;
+            margin: 50px 0 30px 0;
+        }
+
+        .produtos-grid {
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .produto-card {
+            background-color: #fff;
+            padding: 30px 20px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border: 1px solid #FAEDCD;
+        }
+
+        .produto-card h3 {
+            font-family: 'Playfair Display', serif;
+            color: #D4A373;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .produto-card p {
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .btn-card {
+            display: inline-block;
+            background-color: #25D366; /* WhatsApp verde */
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 50px;
+            font-size: 14px;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #FAEDCD;
+            color: #888;
+            font-size: 13px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-text">CS Encanto</div>
+    </header>
+
+    <section class="hero">
+        <h1>Presentes que Encantam</h1>
+        <p>Perfumes, cestas e cosméticos para todas as ocasiões. Encontre o presente perfeito aqui.</p>
+        
+        <!-- Link do WhatsApp da bio dela -->
+        <a href="https://wa.me/message/KQRKRHMH4QG7NM1" class="btn-whatsapp" target="_blank">Falar no WhatsApp</a>
+    </section>
+
+    <h2 class="section-title">Nossas Delícias</h2>
+    
+    <section class="produtos-grid">
+        <div class="produto-card">
+            <h3>🎁 Cestas de Presente</h3>
+            <p>Combinações perfeitas de perfumes, cremes e mimos para surpreender quem você ama.</p>
+            <a href="https://wa.me/message/KQRKRHMH4QG7NM1" class="btn-card" target="_blank">Ver Opções</a>
+        </div>
+
+        <div class="produto-card">
+            <h3>✨ Perfumes e Cosméticos</h3>
+            <p>Produtos de alta qualidade para cuidar da pele e perfumar o dia.</p>
+            <a href="https://wa.me/message/KQRKRHMH4QG7NM1" class="btn-card" target="_blank">Ver Opções</a>
+        </div>
+
+        <div class="produto-card">
+            <h3>👶 Presentes Infantis</h3>
+            <p>Opções fofas e delicadas para o Dia das Crianças ou chá de bebê.</p>
+            <a href="https://wa.me/message/KQRKRHMH4QG7NM1" class="btn-card" target="_blank">Ver Opções</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CS Encanto. Todos os direitos reservados.</p>
+        <p>Campina Grande - PB</p>
+    </footer>
+
+</body>
+</html>
